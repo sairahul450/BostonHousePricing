@@ -4,6 +4,8 @@ import json
 from flask import Flask,request,app,jsonify,url_for,render_template
 import numpy
 import pandas
+import numpy as np
+
 
 app=Flask(__name__)
 #Load model
